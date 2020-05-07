@@ -24,9 +24,50 @@ body {
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none !important;
+    text-decoration: none;
+}
+
+.bread-crumbs {
+    margin-top: 25px;
+}
+
+.bread-crumbs > a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.product-detail {
+    margin-top: 20px;
+    background: #fff;
+    padding: 40px;
+}
+
+.product-description {
+    margin: 20px 0;
+}
+
+.product-price {
+    margin: 20px 0;
+}
+
+.quantity > .input-group{
+    width: 140px;
+    margin-bottom: 30px;
+}
+
+.action{
+    display: block
+}
+
+i.fas {
+    margin-right: 5px;
+}
+
+.btn-lego-red {
+    color: white;
+    background-color: #fe0100;
 }
