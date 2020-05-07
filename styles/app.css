@@ -23,6 +23,13 @@ body {
     font-weight: bold;
 }
 
+.card-img-top {
+    transition: all .2s ease-in-out;
+}
+.card-img-top:hover{
+    transform: scale(1.03);
+}
+
 a {
     text-decoration: none;
 }
@@ -70,4 +77,45 @@ i.fas {
 .btn-lego-red {
     color: white;
     background-color: #fe0100;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+    border-color: #d45500;
+    border-bottom-color: transparent;
+}
+.tab-content {
+    padding: 1rem 1rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: none;
+}
+
+.review-title{
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.review-user{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.review-date{ 
+    font-size: 12px;
+}
+
+.review-description{
+    padding: 0
+}
+
+.review:not(:last-child){
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }
