@@ -119,3 +119,39 @@ i.fas {
 .review:not(:last-child){
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
+
+/* copied */
+
+
+.subscription-box {
+    padding: 15px 0;
+}
+    
+.subscription-box .subscribe {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.subscription-box .subscribe h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px; 
+}
+.subscription-box .subscribe .form-control {
+    height: 40px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+}
+.subscription-box .subscribe .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; 
+}
+.subscription-box .subscribe .btn {
+    min-height: 40px;
+    background: #243c4f;
+    color: #fff;
+}
+
+.form-control:focus, .btn:focus {
+    box-shadow: none;
+}
